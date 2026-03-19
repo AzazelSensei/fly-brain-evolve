@@ -1,0 +1,13 @@
+{
+  "horizontal": {
+    "pn_spikes": 1,
+    "kc_active": 24
+  },
+  "vertical": {
+    "kc_active": 19
+  },
+  "overlap": 3,
+  "h_only": 21,
+  "v_only": 16,
+  "silent": 160
+}

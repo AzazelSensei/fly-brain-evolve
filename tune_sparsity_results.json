@@ -1,0 +1,152 @@
+[
+  {
+    "pn_spikes": 526,
+    "kc_spikes": 196,
+    "kc_active": 81,
+    "kc_sparsity_pct": 81.0,
+    "mbon_spikes": 10,
+    "apl_spikes": 8,
+    "config": "baseline",
+    "apl_w_nS": 50,
+    "pn_kc_w_range": [
+      3,
+      8
+    ],
+    "kc_thresh_mV": -50
+  },
+  {
+    "pn_spikes": 526,
+    "kc_spikes": 170,
+    "kc_active": 77,
+    "kc_sparsity_pct": 77.0,
+    "mbon_spikes": 6,
+    "apl_spikes": 5,
+    "config": "apl=100",
+    "apl_w_nS": 100,
+    "pn_kc_w_range": [
+      3,
+      8
+    ],
+    "kc_thresh_mV": -50
+  },
+  {
+    "pn_spikes": 526,
+    "kc_spikes": 145,
+    "kc_active": 79,
+    "kc_sparsity_pct": 79.0,
+    "mbon_spikes": 6,
+    "apl_spikes": 4,
+    "config": "apl=200",
+    "apl_w_nS": 200,
+    "pn_kc_w_range": [
+      3,
+      8
+    ],
+    "kc_thresh_mV": -50
+  },
+  {
+    "pn_spikes": 526,
+    "kc_spikes": 180,
+    "kc_active": 79,
+    "kc_sparsity_pct": 79.0,
+    "mbon_spikes": 8,
+    "apl_spikes": 7,
+    "config": "thresh=-48",
+    "apl_w_nS": 50,
+    "pn_kc_w_range": [
+      3,
+      8
+    ],
+    "kc_thresh_mV": -48
+  },
+  {
+    "pn_spikes": 526,
+    "kc_spikes": 163,
+    "kc_active": 80,
+    "kc_sparsity_pct": 80.0,
+    "mbon_spikes": 6,
+    "apl_spikes": 6,
+    "config": "thresh=-45",
+    "apl_w_nS": 50,
+    "pn_kc_w_range": [
+      3,
+      8
+    ],
+    "kc_thresh_mV": -45
+  },
+  {
+    "pn_spikes": 526,
+    "kc_spikes": 102,
+    "kc_active": 65,
+    "kc_sparsity_pct": 65.0,
+    "mbon_spikes": 3,
+    "apl_spikes": 3,
+    "config": "combo1",
+    "apl_w_nS": 100,
+    "pn_kc_w_range": [
+      2,
+      5
+    ],
+    "kc_thresh_mV": -48
+  },
+  {
+    "pn_spikes": 526,
+    "kc_spikes": 81,
+    "kc_active": 56,
+    "kc_sparsity_pct": 56.0,
+    "mbon_spikes": 0,
+    "apl_spikes": 2,
+    "config": "combo2",
+    "apl_w_nS": 200,
+    "pn_kc_w_range": [
+      2,
+      5
+    ],
+    "kc_thresh_mV": -48
+  },
+  {
+    "pn_spikes": 526,
+    "kc_spikes": 6,
+    "kc_active": 6,
+    "kc_sparsity_pct": 6.0,
+    "mbon_spikes": 0,
+    "apl_spikes": 0,
+    "config": "combo3",
+    "apl_w_nS": 200,
+    "pn_kc_w_range": [
+      1,
+      3
+    ],
+    "kc_thresh_mV": -45
+  },
+  {
+    "pn_spikes": 526,
+    "kc_spikes": 6,
+    "kc_active": 6,
+    "kc_sparsity_pct": 6.0,
+    "mbon_spikes": 0,
+    "apl_spikes": 0,
+    "config": "combo4",
+    "apl_w_nS": 300,
+    "pn_kc_w_range": [
+      1,
+      3
+    ],
+    "kc_thresh_mV": -45
+  },
+  {
+    "pn_spikes": 526,
+    "kc_spikes": 57,
+    "kc_active": 43,
+    "kc_sparsity_pct": 43.0,
+    "mbon_spikes": 0,
+    "apl_spikes": 1,
+    "config": "combo5",
+    "apl_w_nS": 200,
+    "pn_kc_w_range": [
+      1,
+      3
+    ],
+    "kc_thresh_mV": -48
+  }
+]

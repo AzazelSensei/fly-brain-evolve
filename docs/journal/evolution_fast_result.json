@@ -1,0 +1,10 @@
+{
+  "best_fitness": 1.0988,
+  "best_ever_fitness": 1.0988,
+  "generations": 100,
+  "population_size": 50,
+  "trials_per_eval": 10,
+  "total_time_s": 78.6,
+  "avg_gen_time_s": 0.79,
+  "speedup_vs_brian2": 67.9
+}

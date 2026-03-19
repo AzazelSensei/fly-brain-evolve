@@ -1,0 +1,13 @@
+{
+  "first_call_s": 6.64,
+  "second_call_s": 0.22,
+  "avg_call_s": 0.21,
+  "pop_size": 20,
+  "trials_per_genome": 6,
+  "total_sims": 120,
+  "per_sim_ms": 1.7,
+  "best_fitness": 1.093,
+  "mean_fitness": 0.5689,
+  "brian2_baseline_s": 120.0,
+  "speedup_vs_brian2": 581.8
+}

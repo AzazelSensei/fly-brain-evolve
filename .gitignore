@@ -1,0 +1,16 @@
+__pycache__/
+*.pyc
+*.pyo
+.pytest_cache/
+*.egg-info/
+dist/
+build/
+results/
+*.npz
+.brian_cache/
+.superpowers/
+.env
+data/
+.numba_cache/
+.vscode/
+.idea/

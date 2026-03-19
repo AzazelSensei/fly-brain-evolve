@@ -1,0 +1,10 @@
+{
+  "pn_spikes": 526,
+  "kc_spikes": 196,
+  "kc_active": 81,
+  "kc_total": 100,
+  "kc_sparsity_pct": 81.0,
+  "mbon_spikes": 10,
+  "apl_spikes": 8,
+  "kc_peak_mV": -50.01
+}

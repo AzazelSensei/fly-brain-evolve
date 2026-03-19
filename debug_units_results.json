@@ -1,0 +1,37 @@
+[
+  {
+    "w_nS": 1,
+    "fired": false,
+    "peak_mV": -69.56
+  },
+  {
+    "w_nS": 5,
+    "fired": false,
+    "peak_mV": -67.83
+  },
+  {
+    "w_nS": 10,
+    "fired": false,
+    "peak_mV": -65.74
+  },
+  {
+    "w_nS": 20,
+    "fired": false,
+    "peak_mV": -61.79
+  },
+  {
+    "w_nS": 50,
+    "fired": false,
+    "peak_mV": -51.6
+  },
+  {
+    "w_nS": 100,
+    "fired": true,
+    "peak_mV": -50.42
+  },
+  {
+    "w_nS": 200,
+    "fired": true,
+    "peak_mV": -50.28
+  }
+]

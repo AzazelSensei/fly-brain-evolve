@@ -1,0 +1,21 @@
+{
+  "horizontal": {
+    "pn_spikes": 526,
+    "kc_spikes": 18,
+    "kc_active": 12,
+    "kc_sparsity_pct": 6.0,
+    "mbon_spikes": 0,
+    "apl_spikes": 0
+  },
+  "vertical": {
+    "pn_spikes": 469,
+    "kc_spikes": 9,
+    "kc_active": 7,
+    "kc_sparsity_pct": 3.5,
+    "mbon_spikes": 0,
+    "apl_spikes": 0
+  },
+  "kc_overlap": 0,
+  "kc_h_only": 12,
+  "kc_v_only": 7
+}

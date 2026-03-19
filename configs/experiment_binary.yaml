@@ -1,0 +1,34 @@
+seed: 42
+
+connectome:
+  num_pn: 64
+  num_kc: 200
+  num_mbon: 2
+  num_apl: 1
+  kc_pn_connections: 6
+  pn_kc_probability: 0.03
+
+neuron:
+  kc:
+    tau_m: 0.020
+    v_rest: -0.070
+    v_thresh: -0.050
+    v_reset: -0.070
+
+encoding:
+  duration: 0.100
+  max_rate: 100.0
+  image_size: 8
+
+evolution:
+  population_size: 30
+  generations: 50
+  mutation_rate: 0.15
+  crossover_rate: 0.3
+  elitism: 3
+
+simulation:
+  dt: 0.0001
+  stimulus_duration: 0.100
+  training_epochs: 5
+  test_trials: 50
