@@ -86,6 +86,11 @@ attention:
   feedback_strength: 0.5
   feedback_inhibition: 0.1
 
+multipass:
+  max_passes: 3
+  confidence_threshold: 0.5
+  kc_carry_decay: 0.5
+
 dopamine_stdp:
   tau_eligibility: 0.040
   tau_kc_trace: 0.020

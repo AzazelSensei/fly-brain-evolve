@@ -1,0 +1,457 @@
+{
+  "history": [
+    {
+      "gen": 0,
+      "best": 0.3749,
+      "mean": 0.2262,
+      "time": 122.69,
+      "passes": 3,
+      "conf": 0.78,
+      "decay": 0.39
+    },
+    {
+      "gen": 1,
+      "best": 0.3749,
+      "mean": 0.2497,
+      "time": 132.04,
+      "passes": 3,
+      "conf": 0.78,
+      "decay": 0.39
+    },
+    {
+      "gen": 2,
+      "best": 0.5536,
+      "mean": 0.3249,
+      "time": 143.9,
+      "passes": 3,
+      "conf": 0.84,
+      "decay": 0.18
+    },
+    {
+      "gen": 3,
+      "best": 0.5536,
+      "mean": 0.3874,
+      "time": 151.57,
+      "passes": 3,
+      "conf": 0.84,
+      "decay": 0.18
+    },
+    {
+      "gen": 4,
+      "best": 0.5578,
+      "mean": 0.4624,
+      "time": 150.35,
+      "passes": 3,
+      "conf": 0.95,
+      "decay": 0.15
+    },
+    {
+      "gen": 5,
+      "best": 0.5939,
+      "mean": 0.5094,
+      "time": 148.45,
+      "passes": 3,
+      "conf": 0.95,
+      "decay": 0.26
+    },
+    {
+      "gen": 6,
+      "best": 0.649,
+      "mean": 0.5602,
+      "time": 153.06,
+      "passes": 3,
+      "conf": 0.95,
+      "decay": 0.47
+    },
+    {
+      "gen": 7,
+      "best": 0.6756,
+      "mean": 0.5684,
+      "time": 153.4,
+      "passes": 3,
+      "conf": 0.94,
+      "decay": 0.55
+    },
+    {
+      "gen": 8,
+      "best": 0.6969,
+      "mean": 0.6285,
+      "time": 151.82,
+      "passes": 3,
+      "conf": 0.88,
+      "decay": 0.52
+    },
+    {
+      "gen": 9,
+      "best": 0.6969,
+      "mean": 0.6497,
+      "time": 148.54,
+      "passes": 3,
+      "conf": 0.88,
+      "decay": 0.52
+    },
+    {
+      "gen": 10,
+      "best": 0.7285,
+      "mean": 0.6689,
+      "time": 148.12,
+      "passes": 3,
+      "conf": 0.88,
+      "decay": 0.68
+    },
+    {
+      "gen": 11,
+      "best": 0.7614,
+      "mean": 0.6932,
+      "time": 148.79,
+      "passes": 3,
+      "conf": 0.9,
+      "decay": 0.63
+    },
+    {
+      "gen": 12,
+      "best": 0.7986,
+      "mean": 0.7016,
+      "time": 138.8,
+      "passes": 3,
+      "conf": 0.85,
+      "decay": 0.65
+    },
+    {
+      "gen": 13,
+      "best": 0.7986,
+      "mean": 0.7058,
+      "time": 137.44,
+      "passes": 3,
+      "conf": 0.85,
+      "decay": 0.65
+    },
+    {
+      "gen": 14,
+      "best": 0.8115,
+      "mean": 0.7118,
+      "time": 143.32,
+      "passes": 3,
+      "conf": 0.72,
+      "decay": 0.61
+    },
+    {
+      "gen": 15,
+      "best": 0.8115,
+      "mean": 0.7409,
+      "time": 146.15,
+      "passes": 3,
+      "conf": 0.72,
+      "decay": 0.61
+    },
+    {
+      "gen": 16,
+      "best": 0.8115,
+      "mean": 0.7245,
+      "time": 141.45,
+      "passes": 3,
+      "conf": 0.72,
+      "decay": 0.61
+    },
+    {
+      "gen": 17,
+      "best": 0.8186,
+      "mean": 0.7489,
+      "time": 144.8,
+      "passes": 3,
+      "conf": 0.8,
+      "decay": 0.61
+    },
+    {
+      "gen": 18,
+      "best": 0.8186,
+      "mean": 0.7465,
+      "time": 144.39,
+      "passes": 3,
+      "conf": 0.8,
+      "decay": 0.61
+    },
+    {
+      "gen": 19,
+      "best": 0.8186,
+      "mean": 0.7476,
+      "time": 141.18,
+      "passes": 3,
+      "conf": 0.8,
+      "decay": 0.61
+    },
+    {
+      "gen": 20,
+      "best": 0.8186,
+      "mean": 0.7682,
+      "time": 144.66,
+      "passes": 3,
+      "conf": 0.8,
+      "decay": 0.61
+    },
+    {
+      "gen": 21,
+      "best": 0.8186,
+      "mean": 0.758,
+      "time": 143.53,
+      "passes": 3,
+      "conf": 0.8,
+      "decay": 0.61
+    },
+    {
+      "gen": 22,
+      "best": 0.8186,
+      "mean": 0.7506,
+      "time": 143.2,
+      "passes": 3,
+      "conf": 0.8,
+      "decay": 0.61
+    },
+    {
+      "gen": 23,
+      "best": 0.8186,
+      "mean": 0.7602,
+      "time": 144.73,
+      "passes": 3,
+      "conf": 0.8,
+      "decay": 0.61
+    },
+    {
+      "gen": 24,
+      "best": 0.8186,
+      "mean": 0.7525,
+      "time": 144.47,
+      "passes": 3,
+      "conf": 0.8,
+      "decay": 0.61
+    },
+    {
+      "gen": 25,
+      "best": 0.827,
+      "mean": 0.7565,
+      "time": 141.76,
+      "passes": 3,
+      "conf": 0.8,
+      "decay": 0.95
+    },
+    {
+      "gen": 26,
+      "best": 0.827,
+      "mean": 0.7737,
+      "time": 137.92,
+      "passes": 3,
+      "conf": 0.8,
+      "decay": 0.95
+    },
+    {
+      "gen": 27,
+      "best": 0.827,
+      "mean": 0.7741,
+      "time": 142.07,
+      "passes": 3,
+      "conf": 0.8,
+      "decay": 0.95
+    },
+    {
+      "gen": 28,
+      "best": 0.8537,
+      "mean": 0.7792,
+      "time": 136.88,
+      "passes": 3,
+      "conf": 0.67,
+      "decay": 0.83
+    },
+    {
+      "gen": 29,
+      "best": 0.8537,
+      "mean": 0.784,
+      "time": 147.76,
+      "passes": 3,
+      "conf": 0.67,
+      "decay": 0.83
+    },
+    {
+      "gen": 30,
+      "best": 0.8537,
+      "mean": 0.7864,
+      "time": 138.74,
+      "passes": 3,
+      "conf": 0.67,
+      "decay": 0.83
+    },
+    {
+      "gen": 31,
+      "best": 0.8537,
+      "mean": 0.8031,
+      "time": 146.71,
+      "passes": 3,
+      "conf": 0.67,
+      "decay": 0.83
+    },
+    {
+      "gen": 32,
+      "best": 0.8537,
+      "mean": 0.7996,
+      "time": 144.1,
+      "passes": 3,
+      "conf": 0.67,
+      "decay": 0.83
+    },
+    {
+      "gen": 33,
+      "best": 0.8537,
+      "mean": 0.7964,
+      "time": 144.17,
+      "passes": 3,
+      "conf": 0.67,
+      "decay": 0.83
+    },
+    {
+      "gen": 34,
+      "best": 0.8537,
+      "mean": 0.7946,
+      "time": 160.52,
+      "passes": 3,
+      "conf": 0.67,
+      "decay": 0.83
+    },
+    {
+      "gen": 35,
+      "best": 0.8627,
+      "mean": 0.7999,
+      "time": 162.12,
+      "passes": 3,
+      "conf": 0.65,
+      "decay": 0.85
+    },
+    {
+      "gen": 36,
+      "best": 0.8627,
+      "mean": 0.8036,
+      "time": 163.67,
+      "passes": 3,
+      "conf": 0.65,
+      "decay": 0.85
+    },
+    {
+      "gen": 37,
+      "best": 0.8627,
+      "mean": 0.7986,
+      "time": 166.85,
+      "passes": 3,
+      "conf": 0.65,
+      "decay": 0.85
+    },
+    {
+      "gen": 38,
+      "best": 0.8627,
+      "mean": 0.8172,
+      "time": 166.87,
+      "passes": 3,
+      "conf": 0.65,
+      "decay": 0.85
+    },
+    {
+      "gen": 39,
+      "best": 0.8627,
+      "mean": 0.7956,
+      "time": 168.25,
+      "passes": 3,
+      "conf": 0.65,
+      "decay": 0.85
+    },
+    {
+      "gen": 40,
+      "best": 0.8627,
+      "mean": 0.8025,
+      "time": 164.88,
+      "passes": 3,
+      "conf": 0.65,
+      "decay": 0.85
+    },
+    {
+      "gen": 41,
+      "best": 0.8627,
+      "mean": 0.7924,
+      "time": 169.0,
+      "passes": 3,
+      "conf": 0.65,
+      "decay": 0.85
+    },
+    {
+      "gen": 42,
+      "best": 0.8627,
+      "mean": 0.796,
+      "time": 162.94,
+      "passes": 3,
+      "conf": 0.65,
+      "decay": 0.85
+    },
+    {
+      "gen": 43,
+      "best": 0.8897,
+      "mean": 0.7936,
+      "time": 162.67,
+      "passes": 3,
+      "conf": 0.92,
+      "decay": 0.94
+    },
+    {
+      "gen": 44,
+      "best": 0.8897,
+      "mean": 0.8047,
+      "time": 164.4,
+      "passes": 3,
+      "conf": 0.92,
+      "decay": 0.94
+    },
+    {
+      "gen": 45,
+      "best": 0.8897,
+      "mean": 0.8168,
+      "time": 162.77,
+      "passes": 3,
+      "conf": 0.92,
+      "decay": 0.94
+    },
+    {
+      "gen": 46,
+      "best": 0.8897,
+      "mean": 0.8171,
+      "time": 168.99,
+      "passes": 3,
+      "conf": 0.92,
+      "decay": 0.94
+    },
+    {
+      "gen": 47,
+      "best": 0.8897,
+      "mean": 0.813,
+      "time": 162.96,
+      "passes": 3,
+      "conf": 0.92,
+      "decay": 0.94
+    },
+    {
+      "gen": 48,
+      "best": 0.8897,
+      "mean": 0.8107,
+      "time": 162.14,
+      "passes": 3,
+      "conf": 0.92,
+      "decay": 0.94
+    },
+    {
+      "gen": 49,
+      "best": 0.8897,
+      "mean": 0.7984,
+      "time": 166.4,
+      "passes": 3,
+      "conf": 0.92,
+      "decay": 0.94
+    }
+  ],
+  "best": 0.8897,
+  "time_s": 7527.8,
+  "neurons": 639
+}
