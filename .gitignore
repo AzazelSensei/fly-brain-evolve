@@ -14,3 +14,9 @@ data/
 .numba_cache/
 .vscode/
 .idea/
+*.log
+*_err.log
+*_stderr.txt
+*_stdout.txt
+cascade_err*
+sweep*_err*
