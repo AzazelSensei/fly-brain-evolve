@@ -12,7 +12,7 @@ from PIL import Image
 
 with open("configs/default.yaml") as f:
     config = yaml.safe_load(f)
-dt_val = config["simulation"]["dt"]
+dt_val = 0.0001
 num_steps = int(0.1 / dt_val)
 refr_steps = int(0.002 / dt_val)
 
@@ -38,7 +38,7 @@ INPUT_WEIGHT = 100e-9
 NUM_KC = 500
 EPOCHS = 4
 POP = 20
-GENS = 80
+GENS = 60
 
 
 def compute_hog_simple(image_flat, img_size=16, cell_size=4, n_bins=8):

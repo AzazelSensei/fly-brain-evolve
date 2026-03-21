@@ -1,0 +1,547 @@
+{
+  "history": [
+    {
+      "gen": 0,
+      "best": 0.327,
+      "mean": 0.2489,
+      "time": 106.36,
+      "passes": 5,
+      "conf": 0.66,
+      "decay": 0.27
+    },
+    {
+      "gen": 1,
+      "best": 0.3652,
+      "mean": 0.2964,
+      "time": 96.05,
+      "passes": 4,
+      "conf": 0.66,
+      "decay": 0.44
+    },
+    {
+      "gen": 2,
+      "best": 0.4437,
+      "mean": 0.3252,
+      "time": 107.63,
+      "passes": 4,
+      "conf": 0.55,
+      "decay": 0.62
+    },
+    {
+      "gen": 3,
+      "best": 0.4607,
+      "mean": 0.3658,
+      "time": 108.0,
+      "passes": 4,
+      "conf": 0.74,
+      "decay": 0.49
+    },
+    {
+      "gen": 4,
+      "best": 0.4679,
+      "mean": 0.4247,
+      "time": 111.47,
+      "passes": 4,
+      "conf": 0.61,
+      "decay": 0.68
+    },
+    {
+      "gen": 5,
+      "best": 0.5749,
+      "mean": 0.4608,
+      "time": 107.73,
+      "passes": 5,
+      "conf": 0.71,
+      "decay": 0.63
+    },
+    {
+      "gen": 6,
+      "best": 0.6089,
+      "mean": 0.4989,
+      "time": 120.25,
+      "passes": 4,
+      "conf": 0.86,
+      "decay": 0.61
+    },
+    {
+      "gen": 7,
+      "best": 0.6588,
+      "mean": 0.5634,
+      "time": 126.12,
+      "passes": 4,
+      "conf": 0.69,
+      "decay": 0.95
+    },
+    {
+      "gen": 8,
+      "best": 0.6793,
+      "mean": 0.5805,
+      "time": 123.75,
+      "passes": 5,
+      "conf": 0.6,
+      "decay": 0.86
+    },
+    {
+      "gen": 9,
+      "best": 0.7211,
+      "mean": 0.6104,
+      "time": 121.9,
+      "passes": 5,
+      "conf": 0.59,
+      "decay": 0.7
+    },
+    {
+      "gen": 10,
+      "best": 0.7855,
+      "mean": 0.6675,
+      "time": 133.94,
+      "passes": 5,
+      "conf": 0.18,
+      "decay": 0.79
+    },
+    {
+      "gen": 11,
+      "best": 0.7855,
+      "mean": 0.6916,
+      "time": 134.63,
+      "passes": 5,
+      "conf": 0.18,
+      "decay": 0.79
+    },
+    {
+      "gen": 12,
+      "best": 0.7855,
+      "mean": 0.7012,
+      "time": 136.41,
+      "passes": 5,
+      "conf": 0.18,
+      "decay": 0.79
+    },
+    {
+      "gen": 13,
+      "best": 0.7902,
+      "mean": 0.7127,
+      "time": 136.21,
+      "passes": 5,
+      "conf": 0.56,
+      "decay": 0.89
+    },
+    {
+      "gen": 14,
+      "best": 0.7902,
+      "mean": 0.7117,
+      "time": 133.55,
+      "passes": 5,
+      "conf": 0.56,
+      "decay": 0.89
+    },
+    {
+      "gen": 15,
+      "best": 0.7902,
+      "mean": 0.7237,
+      "time": 133.51,
+      "passes": 5,
+      "conf": 0.56,
+      "decay": 0.89
+    },
+    {
+      "gen": 16,
+      "best": 0.7902,
+      "mean": 0.7376,
+      "time": 137.27,
+      "passes": 5,
+      "conf": 0.56,
+      "decay": 0.89
+    },
+    {
+      "gen": 17,
+      "best": 0.7902,
+      "mean": 0.7408,
+      "time": 133.62,
+      "passes": 5,
+      "conf": 0.56,
+      "decay": 0.89
+    },
+    {
+      "gen": 18,
+      "best": 0.7902,
+      "mean": 0.7366,
+      "time": 134.06,
+      "passes": 5,
+      "conf": 0.56,
+      "decay": 0.89
+    },
+    {
+      "gen": 19,
+      "best": 0.8061,
+      "mean": 0.7414,
+      "time": 133.04,
+      "passes": 5,
+      "conf": 0.59,
+      "decay": 0.8
+    },
+    {
+      "gen": 20,
+      "best": 0.8084,
+      "mean": 0.7447,
+      "time": 135.91,
+      "passes": 5,
+      "conf": 0.34,
+      "decay": 0.95
+    },
+    {
+      "gen": 21,
+      "best": 0.8084,
+      "mean": 0.737,
+      "time": 135.48,
+      "passes": 5,
+      "conf": 0.34,
+      "decay": 0.95
+    },
+    {
+      "gen": 22,
+      "best": 0.8084,
+      "mean": 0.7317,
+      "time": 139.07,
+      "passes": 5,
+      "conf": 0.34,
+      "decay": 0.95
+    },
+    {
+      "gen": 23,
+      "best": 0.8084,
+      "mean": 0.7439,
+      "time": 135.3,
+      "passes": 5,
+      "conf": 0.34,
+      "decay": 0.95
+    },
+    {
+      "gen": 24,
+      "best": 0.8169,
+      "mean": 0.7575,
+      "time": 138.22,
+      "passes": 5,
+      "conf": 0.61,
+      "decay": 0.94
+    },
+    {
+      "gen": 25,
+      "best": 0.8219,
+      "mean": 0.7707,
+      "time": 136.28,
+      "passes": 5,
+      "conf": 0.1,
+      "decay": 0.95
+    },
+    {
+      "gen": 26,
+      "best": 0.8219,
+      "mean": 0.7663,
+      "time": 128.68,
+      "passes": 5,
+      "conf": 0.1,
+      "decay": 0.95
+    },
+    {
+      "gen": 27,
+      "best": 0.8219,
+      "mean": 0.7647,
+      "time": 121.17,
+      "passes": 5,
+      "conf": 0.1,
+      "decay": 0.95
+    },
+    {
+      "gen": 28,
+      "best": 0.8219,
+      "mean": 0.7666,
+      "time": 119.97,
+      "passes": 5,
+      "conf": 0.1,
+      "decay": 0.95
+    },
+    {
+      "gen": 29,
+      "best": 0.8219,
+      "mean": 0.7713,
+      "time": 124.14,
+      "passes": 5,
+      "conf": 0.1,
+      "decay": 0.95
+    },
+    {
+      "gen": 30,
+      "best": 0.8375,
+      "mean": 0.7766,
+      "time": 119.35,
+      "passes": 5,
+      "conf": 0.15,
+      "decay": 0.95
+    },
+    {
+      "gen": 31,
+      "best": 0.8375,
+      "mean": 0.767,
+      "time": 113.56,
+      "passes": 5,
+      "conf": 0.15,
+      "decay": 0.95
+    },
+    {
+      "gen": 32,
+      "best": 0.8375,
+      "mean": 0.7694,
+      "time": 124.02,
+      "passes": 5,
+      "conf": 0.15,
+      "decay": 0.95
+    },
+    {
+      "gen": 33,
+      "best": 0.8375,
+      "mean": 0.7693,
+      "time": 120.54,
+      "passes": 5,
+      "conf": 0.15,
+      "decay": 0.95
+    },
+    {
+      "gen": 34,
+      "best": 0.8375,
+      "mean": 0.775,
+      "time": 118.91,
+      "passes": 5,
+      "conf": 0.15,
+      "decay": 0.95
+    },
+    {
+      "gen": 35,
+      "best": 0.8375,
+      "mean": 0.787,
+      "time": 119.73,
+      "passes": 5,
+      "conf": 0.15,
+      "decay": 0.95
+    },
+    {
+      "gen": 36,
+      "best": 0.8412,
+      "mean": 0.7917,
+      "time": 121.87,
+      "passes": 5,
+      "conf": 0.13,
+      "decay": 0.86
+    },
+    {
+      "gen": 37,
+      "best": 0.8412,
+      "mean": 0.7898,
+      "time": 120.4,
+      "passes": 5,
+      "conf": 0.13,
+      "decay": 0.86
+    },
+    {
+      "gen": 38,
+      "best": 0.8412,
+      "mean": 0.7852,
+      "time": 115.81,
+      "passes": 5,
+      "conf": 0.13,
+      "decay": 0.86
+    },
+    {
+      "gen": 39,
+      "best": 0.8596,
+      "mean": 0.7718,
+      "time": 120.61,
+      "passes": 5,
+      "conf": 0.24,
+      "decay": 0.95
+    },
+    {
+      "gen": 40,
+      "best": 0.8596,
+      "mean": 0.7929,
+      "time": 116.16,
+      "passes": 5,
+      "conf": 0.24,
+      "decay": 0.95
+    },
+    {
+      "gen": 41,
+      "best": 0.8596,
+      "mean": 0.8028,
+      "time": 119.13,
+      "passes": 5,
+      "conf": 0.24,
+      "decay": 0.95
+    },
+    {
+      "gen": 42,
+      "best": 0.8596,
+      "mean": 0.7921,
+      "time": 124.72,
+      "passes": 5,
+      "conf": 0.24,
+      "decay": 0.95
+    },
+    {
+      "gen": 43,
+      "best": 0.8596,
+      "mean": 0.8018,
+      "time": 122.77,
+      "passes": 5,
+      "conf": 0.24,
+      "decay": 0.95
+    },
+    {
+      "gen": 44,
+      "best": 0.8888,
+      "mean": 0.8099,
+      "time": 122.7,
+      "passes": 5,
+      "conf": 0.14,
+      "decay": 0.95
+    },
+    {
+      "gen": 45,
+      "best": 0.9217,
+      "mean": 0.8235,
+      "time": 121.71,
+      "passes": 4,
+      "conf": 0.1,
+      "decay": 0.75
+    },
+    {
+      "gen": 46,
+      "best": 0.9217,
+      "mean": 0.808,
+      "time": 109.63,
+      "passes": 4,
+      "conf": 0.1,
+      "decay": 0.75
+    },
+    {
+      "gen": 47,
+      "best": 0.9217,
+      "mean": 0.8147,
+      "time": 111.35,
+      "passes": 4,
+      "conf": 0.1,
+      "decay": 0.75
+    },
+    {
+      "gen": 48,
+      "best": 0.9217,
+      "mean": 0.8206,
+      "time": 109.76,
+      "passes": 4,
+      "conf": 0.1,
+      "decay": 0.75
+    },
+    {
+      "gen": 49,
+      "best": 0.9217,
+      "mean": 0.8005,
+      "time": 106.52,
+      "passes": 4,
+      "conf": 0.1,
+      "decay": 0.75
+    },
+    {
+      "gen": 50,
+      "best": 0.9217,
+      "mean": 0.8131,
+      "time": 110.92,
+      "passes": 4,
+      "conf": 0.1,
+      "decay": 0.75
+    },
+    {
+      "gen": 51,
+      "best": 0.9217,
+      "mean": 0.8154,
+      "time": 103.65,
+      "passes": 4,
+      "conf": 0.1,
+      "decay": 0.75
+    },
+    {
+      "gen": 52,
+      "best": 0.9217,
+      "mean": 0.8187,
+      "time": 102.58,
+      "passes": 4,
+      "conf": 0.1,
+      "decay": 0.75
+    },
+    {
+      "gen": 53,
+      "best": 0.9217,
+      "mean": 0.7907,
+      "time": 113.0,
+      "passes": 4,
+      "conf": 0.1,
+      "decay": 0.75
+    },
+    {
+      "gen": 54,
+      "best": 0.9217,
+      "mean": 0.8283,
+      "time": 100.69,
+      "passes": 4,
+      "conf": 0.1,
+      "decay": 0.75
+    },
+    {
+      "gen": 55,
+      "best": 0.9217,
+      "mean": 0.8214,
+      "time": 99.52,
+      "passes": 4,
+      "conf": 0.1,
+      "decay": 0.75
+    },
+    {
+      "gen": 56,
+      "best": 0.9217,
+      "mean": 0.8072,
+      "time": 106.93,
+      "passes": 4,
+      "conf": 0.1,
+      "decay": 0.75
+    },
+    {
+      "gen": 57,
+      "best": 0.9217,
+      "mean": 0.8259,
+      "time": 113.73,
+      "passes": 4,
+      "conf": 0.1,
+      "decay": 0.75
+    },
+    {
+      "gen": 58,
+      "best": 0.9217,
+      "mean": 0.8271,
+      "time": 114.77,
+      "passes": 4,
+      "conf": 0.1,
+      "decay": 0.75
+    },
+    {
+      "gen": 59,
+      "best": 0.9217,
+      "mean": 0.8107,
+      "time": 121.82,
+      "passes": 4,
+      "conf": 0.1,
+      "decay": 0.75
+    }
+  ],
+  "best": 0.9217,
+  "time_s": 7238.1,
+  "neurons": 639
+}
