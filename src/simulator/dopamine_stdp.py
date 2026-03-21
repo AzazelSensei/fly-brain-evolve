@@ -674,3 +674,92 @@ def train_and_evaluate_multipass(
         fitnesses[gi] = acc + sp_bonus
 
     return fitnesses
+
+
+@njit(parallel=True, cache=True)
+def train_and_evaluate_meta(
+    pop_W_exc, pop_W_inh, pop_kc_mbon_init, pop_V_thresh,
+    train_spikes, train_labels, test_spikes, test_labels,
+    tau_m, V_rest, V_reset, g_L,
+    E_exc_val, E_inh_val, tau_exc, tau_inh,
+    dt, num_steps, refr_steps,
+    num_neurons, num_pn, num_mbon, num_kc,
+    kc_start, kc_end, mbon_start, mbon_end,
+    input_weight,
+    pop_tau_kc, pop_tau_mbon, pop_tau_elig,
+    pop_lr, pop_w_min, pop_w_max,
+    pop_reward, pop_punish,
+    pop_fb_str, pop_fb_inh,
+    pop_max_passes, pop_conf_thresh, pop_kc_decay,
+):
+    pop_size = pop_W_exc.shape[0]
+    n_train = train_labels.shape[0]
+    n_test = test_labels.shape[0]
+    fitnesses = np.zeros(pop_size)
+
+    for gi in prange(pop_size):
+        kc_mbon = pop_kc_mbon_init[gi].copy()
+        fbs = pop_fb_str[gi]
+        fbi = pop_fb_inh[gi]
+        mp = int(pop_max_passes[gi])
+        ct = pop_conf_thresh[gi]
+        cd = pop_kc_decay[gi]
+        lr = pop_lr[gi]
+        wmin = pop_w_min[gi]
+        wmax = pop_w_max[gi]
+        rw = pop_reward[gi]
+        pu = pop_punish[gi]
+        tk = pop_tau_kc[gi]
+        tm = pop_tau_mbon[gi]
+        te = pop_tau_elig[gi]
+
+        for ti in range(n_train):
+            mc, ks, el = _simulate_multipass(
+                pop_W_exc[gi], pop_W_inh[gi], kc_mbon,
+                train_spikes[ti], pop_V_thresh[gi],
+                tau_m, V_rest, V_reset, g_L,
+                E_exc_val, E_inh_val, tau_exc, tau_inh,
+                dt, num_steps, refr_steps,
+                num_neurons, num_pn, kc_start, kc_end, mbon_start, mbon_end,
+                input_weight, fbs, fbi, wmax,
+                mp, ct, cd, 1, tk, tm, te)
+            dopamine = np.full(num_mbon, pu)
+            dopamine[train_labels[ti]] = rw
+            for ki in range(num_kc):
+                for m in range(num_mbon):
+                    kc_mbon[ki, m] += lr * el[ki, m] * dopamine[m]
+                    if kc_mbon[ki, m] < wmin:
+                        kc_mbon[ki, m] = wmin
+                    if kc_mbon[ki, m] > wmax:
+                        kc_mbon[ki, m] = wmax
+
+        correct = 0
+        total_kc = 0
+        for ti in range(n_test):
+            mc, ks, _ = _simulate_multipass(
+                pop_W_exc[gi], pop_W_inh[gi], kc_mbon,
+                test_spikes[ti], pop_V_thresh[gi],
+                tau_m, V_rest, V_reset, g_L,
+                E_exc_val, E_inh_val, tau_exc, tau_inh,
+                dt, num_steps, refr_steps,
+                num_neurons, num_pn, kc_start, kc_end, mbon_start, mbon_end,
+                input_weight, fbs, fbi, wmax,
+                mp, ct, cd, 0, tk, tm, te)
+            best_m = -1
+            best_count = 0
+            for m in range(num_mbon):
+                if mc[m] > best_count:
+                    best_count = mc[m]
+                    best_m = m
+            if best_m >= 0 and best_m == test_labels[ti]:
+                correct += 1
+            total_kc += ks.sum()
+
+        acc = correct / n_test
+        sp = total_kc / (n_test * num_kc)
+        sp_bonus = 0.0
+        if abs(sp - 0.1) < 0.1:
+            sp_bonus = (1.0 - abs(sp - 0.1) / 0.1) * 0.1
+        fitnesses[gi] = acc + sp_bonus
+
+    return fitnesses
